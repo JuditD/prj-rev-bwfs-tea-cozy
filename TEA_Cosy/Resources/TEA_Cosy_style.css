@@ -1,0 +1,180 @@
+/* Universal Styles */
+
+body {
+font-family: Helvetica;
+font-size: 22px;
+color: seashell;
+background-color: black;
+opacity: 0.9;
+
+}
+
+header {
+  display:flex;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  align-items: center;
+  width:100%;
+  z-index: 2;
+  opacity: 1;
+  background-color: black;
+}
+
+.logo {
+  display: flex;
+
+  flex-grow: 1;
+  padding-left: 10px;
+
+}
+
+.logo img {
+  height: 50px;
+  width: auto;
+
+}
+
+nav span {
+  text-decoration: underline;
+  padding-right: 20px;
+}
+
+
+/* Content */
+
+.Content {
+  display: flex;
+  position: relative;
+  top: 69px;
+  align-items: center;
+  flex-direction: column;
+  align-content: center;
+}
+
+/* Our Mission */
+
+.Mission {
+  display: flex;
+  background-image: url("./img-mission-background.jpg");
+  width:1200px;
+  height:700px;
+  align-items: center;
+
+
+}
+
+.MissionText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+  width: 100%;
+  align-items: center;
+
+
+}
+
+/* Tea of the Month */
+
+.TEAofTheMonth {
+  display: flex;
+  flex-direction: column;
+  width: 1000px;
+  align-items: center;
+
+  flex-grow: 1;
+}
+
+.TEAofTheMonthtext {
+  display: flex;
+  align-items: center;
+
+}
+
+.TeaofthemonthText h2 {
+  text-align: center;
+}
+
+.TeaoftheMonthmenupic {
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.teapic {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+img {
+  width: 300px;
+  height: 200px;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+/* Locations */
+
+.Locations {
+  display: flex;
+  position: relative;
+  top: 100px;
+  flex-flow: 1;
+
+}
+
+.LocationPic {
+  display: flex;
+  background-image: url("./img-locations-background.jpg");
+  height: 500px;
+  flex-direction: column;
+  align-items: center;
+  width:100%;
+
+
+
+
+}
+.Locationbundle {
+  display: flex;
+}
+
+
+.Locationitems {
+  display: flex;
+flex-direction: column;
+  width:300px;
+  height: 300px;
+  opacity:1;
+  margin: 20px;
+  background-color: black;
+  align-items: center;
+  text-align: center;
+
+}
+
+/* Contacts */
+
+.Contacts {
+  text-align: center;
+  position: relative;
+  top:100px;
+  height: 200px;
+  }
+
+/* Copyright */
+
+.copyright {
+
+  position: relative;
+  top:100px;
+  left:20px;
+
+  }
+
+.copyright h5 {
+  text-align: left
+  }
